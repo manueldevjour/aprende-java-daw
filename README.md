@@ -3,7 +3,7 @@
 
 ## Descripción
 
-Aquí se encuentran los ejercicios de Java que realizaremos a lo largo del curso en la asignatura de programación.
+Aquí se encuentran los ejercicios de Java que realizaremos a lo largo del curso en la asignatura de programación de 1º de DAW.
 
 ## Compilación y ejecución del programa
 
@@ -21,4 +21,4 @@ java nombredelprograma
 
 ## Aprendizaje en Java
 
-Te recomiendo el libro [Aprende Java con ejercicios] (https://leanpub.com/aprendejava) :wink:
+Los ejercicios son de este libro [Aprende Java con ejercicios] (https://leanpub.com/aprendejava) :wink:
