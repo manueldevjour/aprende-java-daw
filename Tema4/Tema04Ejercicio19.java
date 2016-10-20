@@ -8,9 +8,9 @@
  */
  
 public class Tema04Ejercicio19 {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		int digitos = 0;
+    int digitos = 0;
     
     System.out.print("Por favor, introduzca un número entero (de 5 cifras como máximo): ");
     int numero = Math.abs(Integer.parseInt(System.console().readLine()));
@@ -35,9 +35,9 @@ public class Tema04Ejercicio19 {
       digitos = 5;
     }
     
-		System.out.println("El número introducido tiene " + digitos + " dígitos.");
+    System.out.println("El número introducido tiene " + digitos + " dígitos.");
 
 
 
-	}
+  }
 }

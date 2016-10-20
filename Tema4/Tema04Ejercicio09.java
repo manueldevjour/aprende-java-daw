@@ -26,6 +26,8 @@ public class Tema04Ejercicio09 {
     double ecuacion1 = (- b + (Math.sqrt(discriminante)) / 2 * a);
     double ecuacion2 = (- b - (Math.sqrt(discriminante)) / 2 * a);
     
+    //Corregir toda esta parte 
+
     if (discriminante > 0) {
       System.out.printf("El primer resultado de la ecuación sería %.3f: ", ecuacion1);
       System.out.printf("El segundo resultado de la ecuación sería %.3f: ", ecuacion2);
@@ -35,5 +37,6 @@ public class Tema04Ejercicio09 {
       System.out.println("¡Error! La ecuación no tiene solución real");
     }
     
+    //Hasta esta parte 
   }
 }
