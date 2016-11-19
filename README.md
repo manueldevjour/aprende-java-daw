@@ -21,6 +21,8 @@ java nombredelprograma
 
 Con **Geany** puedes usar F8 para compilar y F5 para ejecutar, sin necesidad de usar el terminal del sistema. 
 
+También, estos ejercicios están hechos con **Eclipse** y **Visual Studio Code** y subidos a Github mediante la **consola cuando estoy en Linux, o con **SourceTree cuando estoy en Windows.**
+
 ## Aprendizaje en Java
 
 Los ejercicios son de este libro [Aprende Java con ejercicios] (https://leanpub.com/aprendejava) :wink:
