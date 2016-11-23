@@ -1,5 +1,5 @@
 /**
- * Igual que el ejercicio anterior pero con la baraja española. Se utilizará la baraja
+ * Igual que el ejercicio anterior pero con la baraja espaï¿½ola. Se utilizarï¿½ la baraja
  * de 40 cartas: 2, 3, 4, 5, 6, 7, sota, caballo, rey y as.
  * 
  * @author Manuel Cerezo
@@ -9,12 +9,12 @@
 public class Tema06Ejercicio03 {
 	public static void main(String[] args) {
 		
-		System.out.print("En este programa vamos a mostrarle una carta al azar de la baraja española.");
+		//Presentamos el programa
+		System.out.print("En este programa vamos a mostrarle una carta al azar de la baraja espaÃ±ola.");
 		System.out.print("\n---------------------------------------------------------------------------");
 		System.out.println();
 		
-		
-		
+		//Hacemos el bucle para que cree X nÃºmeros aleatorios.
 		for (int i = 0; i < 1; i++) {
 			int numero = (int)(Math.random() * 10) + 1; 
 			if (numero == 1) {
@@ -31,6 +31,7 @@ public class Tema06Ejercicio03 {
 			
 		}		
 		
+		//Hacemos otro switch como en el anterior ejercicio para que muestre el palo de la carta aleatoriamente.
 		int palo = (int)(Math.random() * 4) + 1;
 		
 		switch (palo) {

@@ -1,10 +1,9 @@
 /**
  * Realiza un programa que muestre al azar el nombre de una carta de la
- * baraja francesa. Esta baraja está dividida en cuatro palos: picas, corazones,
- * diamantes y tréboles. Cada palo está formado por 13 cartas, de las cuales 9
+ * baraja francesa. Esta baraja estÃ¡ dividida en cuatro palos: picas, corazones,
+ * diamantes y trÃ©boles. Cada palo estÃ¡ formado por 13 cartas, de las cuales 9
  * cartas son numerales y 4 literales: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K y A (que
- * sería el 1). Para convertir un número en una cadena de caracteres podemos
- * usar String.valueOf(n).
+ * serÃ­a el 1). 
  * 
  * @author Manuel Cerezo
  *
@@ -13,14 +12,13 @@
 public class Tema06Ejercicio02 {
 	public static void main(String[] args) {
 		
+		//Presentamos el programa
 		System.out.print("En este programa vamos a mostrarle una carta al azar de la baraja francesa.");
 		System.out.print("\n---------------------------------------------------------------------------");
 		System.out.println();
 		
-		
-		
-		for (int i = 0; i < 1; i++) {
-			int numero = (int)(Math.random() * 13) + 1; 
+		//Creamos un nÃºmero aleatorio para que nos muestre el valor de la carta.
+		int numero = (int)(Math.random() * 13) + 1; 
 			if (numero == 1) {
 				System.out.print("As de");
 			} else if (numero == 11) {
@@ -32,9 +30,8 @@ public class Tema06Ejercicio02 {
 			} else {
 				System.out.print(numero + " de");
 			}
-			
-		}		
-		
+					
+		//Creamos otro nÃºmero aleatorio. Creamos un switch para que el nÃºmero aleatorio que nos de se convierta en una cadena de carÃ¡cteres (un palo de la baraja).
 		int palo = (int)(Math.random() * 4) + 1;
 		
 		switch (palo) {
@@ -51,9 +48,9 @@ public class Tema06Ejercicio02 {
 			break;
 			
 			case 4:
-				System.out.print(" tréboles");
+				System.out.print(" trÃ©boles");
 			break;		
 		
-		}
+		}//Fin bucle switch
 	}
 }
