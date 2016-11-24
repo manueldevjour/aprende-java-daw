@@ -14,8 +14,7 @@ public class Tema05Ejercicio02 {
     while(i <= 100) {
       System.out.println(i);
       i+=5;
-    }
-
+    }//Fin del bucle while
 
   }
 }
