@@ -7,6 +7,7 @@ Aquí se encuentran los ejercicios de Java que realizaremos a lo largo del curso
 
 ## Compilación y ejecución del programa
 
+*Esta explicación sirve tanto si trabajas en la consola de Linux como en la de Windows.*
 Para **compilar** el programa teclea lo siguiente (es necesario tener el *JDK*):
 
 ```console
