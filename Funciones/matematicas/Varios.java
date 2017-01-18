@@ -245,17 +245,17 @@ public class Varios {
  * Ejercicio 13
  * 
  * @param n es el número entero introducido por el usuario
- * @param inicial es el número de dígitos que se tomará como posición inicial
- * @param dFinal es el número de dígitos que se tomará como posición final
+ * @param digitosInicio es el número de dígitos que se tomará como posición inicial
+ * @param digitosFinal es el número de dígitos que se tomará como posición final
  *
  * @return <code>numeroTroceado</code> devuelve el trozo del número introducido  
  */ 
  
- public static int trozoDeNumero(int n, int inicial, int dFinal) {
+ public static int trozoDeNumero(int n, int digitosInicio, int digitosFinal) {
    
    int numeroEntero = n;
-   numeroEntero = quitaPorDelante(n, inicial);
-   numeroEntero = quitaPorDetras(n, dFinal);
+   numeroEntero = quitaPorDelante(n, digitosInicio);
+   numeroEntero = quitaPorDetras(n, digitosFinal);
    
    return numeroEntero;
  }
@@ -263,21 +263,21 @@ public class Varios {
 /**
 * Ejercicio 14
 * 
-* @param a es el primer número introducido por el usuario
-* @param b es el segundo número introducido por el usuario
-* @return <code>numeroNuevo</code> devuelve el número formado por a y b 
+* @param m es el primer número introducido por el usuario
+* @param n es el segundo número introducido por el usuario
+* @return <code>numeroNuevo</code> devuelve el número formado por m y n
 */ 
    
- public static int juntaNumeros(int a, int b) {
-   int digitos = digitos(b);
+  public static int juntaNumeros(int m, int n) {
+    int digitos = digitos(n);
    
-   for (int i = 0; i < digitos; i++) {
-     a *= 10;
-   }
+    for (int i = 0; i < digitos; i++) {
+      m *= 10;
+    }
    
-   int numeroNuevo = a + b;
-   return numeroNuevo;
- } 
-}
+    int numeroNuevo = m + n;
+    return numeroNuevo;
+  } 
+
 
 } //Fin del public class 
