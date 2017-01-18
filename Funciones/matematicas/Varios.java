@@ -12,7 +12,6 @@ public class Varios {
  * @return <code>false</code> Cuando el numero no es capicuo
  * 
  */
- 
   public static boolean esCapicua(long n) {
     
     long a = n;
@@ -37,7 +36,6 @@ public class Varios {
  * @return <code>false</code> Cuando el numero no es primo
  * 
  */
- 
   public static boolean esPrimo(int n) {
     for(int i = 2; i < n; i++) {
       if(n % i == 0) {
@@ -55,7 +53,6 @@ public class Varios {
  * @param n que es el numero primo
  * @return <code>Numero primo siguiente al introducido</code>
  */
- 
   public static int siguientePrimo (int n) {
     int miPrimo = n;
     
@@ -65,6 +62,7 @@ public class Varios {
     
     return miPrimo;
   }
+  
 /**
  * Ejercicio 4
  * 
@@ -93,7 +91,6 @@ public class Varios {
  * @param n que es el numero de cual queremos saber cuantos digitos tiene
  * @return <code>numero de digitos que tiene el numero</code>
  */
-
   public static int digitos(long n) {
     
     int contador = 0;
@@ -117,7 +114,6 @@ public class Varios {
  * @param n que sera el numero a voltear
  * @return <code>devuelve el numero volteado</code>
  */
-
   public static int voltea(int n) {
     
     int numeroVolteado = 0;
@@ -129,17 +125,27 @@ public class Varios {
     
     return numeroVolteado;
   }
+  
 /**
- * Ejercicio 7 
+ * Ejercicio 7
  * 
- * Devuelve el digito que está en la posicion n de un numero entero. Se empieza
- * contando por 0 y de izquierda a derecha.
+ * Devuelve el dígito que está en la posición elegida por el usuario
  * 
- * @param 
- * @return
+ * @param n número entero
+ * @param m posición dentro del número <code>x</code>
+ * @return  dígito que está en la posición n del número <code>x</code>
+ *          empezando a contar por el 0 y de izquierda a derecha
  */
+  public static int digitoN(int n, int m) {
+    
+    n = voltea(n);
 
+    while (m-- > 0) {
+      n = n / 10;
+    }
 
+    return (int)n % 10;
+  }
 /**
  * Ejercicio 8
  * 
@@ -147,7 +153,6 @@ public class Varios {
  * @param m el numero con el que se va a buscar la posicion del digito 
  * @return <code>posicion del digito</code>
  */
-
   public static int posicionDeDigito(int n, int m) {
     
     int volteado = voltea(n);
@@ -172,7 +177,6 @@ public class Varios {
  * @param m numero de digitos que le quitamos al numero introducido
  * @return numero con digitos eliminados por detras
  */
-
   public static int quitaPorDetras(int n, int m) {
     
     int contador = 0;
@@ -195,7 +199,6 @@ public class Varios {
  * @param m numero con el que tenemos las excepciones
  * @return el numero con digitos de menos por delante
  */
-
   public static int quitaPorDelante(int n, int m) {
     
     int contador = 0;
@@ -216,7 +219,6 @@ public class Varios {
 * @param m digito que vamos a añadir
 * @return <code>numeroNuevo</code>
 */  
-
   public static int pegaPorDetras(int n, int m) {
     
     int numeroNuevo = n * 10 + m;
@@ -231,15 +233,12 @@ public class Varios {
 * @param m digito a añadir a n
 * @return <code>numeroNuevo</code>
 */  
-  
   public static int pegaPorDelante(int n, int m) {
     
     int numeroNuevo = voltea(n) * 10 + m;
     voltea(numeroNuevo);
     return numeroNuevo;
   }
-
-
 
 /** 
  * Ejercicio 13
@@ -250,14 +249,13 @@ public class Varios {
  *
  * @return <code>numeroTroceado</code> devuelve el trozo del número introducido  
  */ 
- 
- public static int trozoDeNumero(int n, int digitosInicio, int digitosFinal) {
+  public static int trozoDeNumero(int n, int digitosInicio, int digitosFinal) {
    
-   int numeroEntero = n;
-   numeroEntero = quitaPorDelante(n, digitosInicio);
-   numeroEntero = quitaPorDetras(n, digitosFinal);
+    int numeroEntero = n;
+    numeroEntero = quitaPorDelante(n, digitosInicio);
+    numeroEntero = quitaPorDetras(n, digitosFinal);
    
-   return numeroEntero;
+    return numeroEntero;
  }
  
 /**
@@ -267,8 +265,8 @@ public class Varios {
 * @param n es el segundo número introducido por el usuario
 * @return <code>numeroNuevo</code> devuelve el número formado por m y n
 */ 
-   
   public static int juntaNumeros(int m, int n) {
+    
     int digitos = digitos(n);
    
     for (int i = 0; i < digitos; i++) {
