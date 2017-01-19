@@ -1,2 +1,5 @@
 # Clases compiladas
 *.class
+
+# Archivos en concreto
+prueba.java

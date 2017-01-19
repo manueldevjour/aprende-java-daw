@@ -5,11 +5,12 @@
  */
 
 import matematicas.Varios;
+import miscelanea.Array;
 import java.util.Scanner;
 
 public class prueba {
   public static void main(String[] args) {
     
-    System.out.print(Varios.digitoN(95195,0));
+    System.out.print(Array.generaArrayInt());
   }
 }
