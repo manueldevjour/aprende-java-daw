@@ -1,7 +1,7 @@
 # Conceptos de Programación Orientada a Objetos
 
 ### Ejercicio 1
-¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
+**¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?**
 
 ```
 Atributos: nombre, escudería, palmarés, temporadas en activo
