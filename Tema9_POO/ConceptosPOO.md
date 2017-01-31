@@ -1,31 +1,31 @@
 # Conceptos de Programación Orientada a Objetos
 
-1. ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
-
-```
-
-```
-
-2. A continuación tienes una lista en la que están mezcladas varias clases con instancias de esas clases. Para ponerlo un poco más difícil, todos los elementos
-están escritos en minúscula. Di cuáles son las clases, cuáles las instancias, a qué clase pertenece cada una de estas instancias y cuál es la jerarquía
-entre las clases: paula, goofy, gardfiel, perro, mineral, caballo, tom, silvestre, pirita, rocinante, milu, snoopy, gato, pluto, animal, javier, bucefalo, pegaso,
-ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
-
-```
-Clases: Animal, Persona, Mineral
-
-Subclase de Animal: Gato, Perro, Caballo
-Subclase de Persona: 
-Subclase de Mineral: 
-
-Instancias de Gato: gardfield, tom, silvestre, 
-Instancias de Perro: goofie,milu, snoopy, pluto, ayudanteDeSantaClaus, laika,
-Instancias de Caballo: rocinante, bucefalo, pegaso,
-Instancias de Persona: paula, javier
-Instancias de Mineral: pirita, cuarzo
-Instancias de Animal: patoLucas
-```
-
+I> 1. ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
+I> 
+I> ```
+I> 
+I> ```
+I> 
+I> 2. A continuación tienes una lista en la que están mezcladas varias clases con instancias de esas clases. Para ponerlo un poco más difícil, todos los elementos
+I> están escritos en minúscula. Di cuáles son las clases, cuáles las instancias, a qué clase pertenece cada una de estas instancias y cuál es la jerarquía
+I> entre las clases: paula, goofy, gardfiel, perro, mineral, caballo, tom, silvestre, pirita, rocinante, milu, snoopy, gato, pluto, animal, javier, bucefalo, pegaso,
+I> ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
+I> 
+I> ```
+I> Clases: Animal, Persona, Mineral
+I> 
+I> Subclase de Animal: Gato, Perro, Caballo
+I> Subclase de Persona: 
+I> Subclase de Mineral: 
+I> 
+I> Instancias de Gato: gardfield, tom, silvestre, 
+I> Instancias de Perro: goofie,milu, snoopy, pluto, ayudanteDeSantaClaus, laika,
+I> Instancias de Caballo: rocinante, bucefalo, pegaso,
+I> Instancias de Persona: paula, javier
+I> Instancias de Mineral: pirita, cuarzo
+I> Instancias de Animal: patoLucas
+I> ```
+I> 
 3. ¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
 
 ```
