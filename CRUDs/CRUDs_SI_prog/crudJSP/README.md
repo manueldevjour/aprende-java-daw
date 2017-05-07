@@ -28,6 +28,6 @@
 - [X] Crear base de datos y darle un funcionamiento a la misma
 - [X] Crear un diseño básico que sea sencillo de entender
 - [X] Creado un footer para método de contacto
-- [] Mejorar el diseño
-- [] Mejorar las querys para conseguir más datos sobre el stock
-- [] Añadir 'charts'(funciones y gráficas) interactivas con la información de la base de datos
+- [ ] Mejorar el diseño
+- [ ] Mejorar las querys para conseguir más datos sobre el stock
+- [ ] Añadir 'charts'(funciones y gráficas) interactivas con la información de la base de datos
