@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-may-2017, 9:56:09
+    Author     : 6000851
+*/
+
+#titulo {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 70px ;
+    color: gold;
+}
+.error {
+    background-color: red;
+}
+
+.success {
+    background-color: green;
+}
+#titulotabla {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+label {
+    color: white;
+}
+
+p, h5 {
+    color: white;
+}
+
+#redditicon {
+    font-size:60px; 
+    color: yellow; 
+    margin-right: 100px;
+}
+
+#stackoverflowicon {
+    font-size: 45px; 
+    color: white; 
+    margin-left: 100px;
+    position: relative;
+    top: -.2em;
+    padding: .2em;
+    background-color: goldenrod;
+    border-radius: 0.2em;
+    width: 1em;
+    text-align: center;
+}
+
+#redireccionar {
+    border-radius: 12px;
+    border: 3px solid;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    color: white;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    position: absolute;
+}
+
+#twitter, #linkedin, #telegram, #github {
+    font-size:20px;
+}
