@@ -1,23 +1,12 @@
-# Java
-
-Descripción
------------
-
-Repositorio con ejercicios, proyectos y prácticas de Java.
+# Ejercicios de programación en Java 
 
 
-## Compilación y ejecución del programa
+## Descripción
 
-*Esta explicación sirve tanto si trabajas en la consola de Linux como en la de Windows.*
-Para **compilar** el programa teclea lo siguiente (es necesario tener el *JDK*):
+Aquí se encuentran los ejercicios de Java que realizaremos a lo largo del curso en la asignatura de programación de 1º de DAW. 
 
-```console
-javac nombredelprograma.java
-```
+También, estos ejercicios están hechos con **Eclipse** y **Visual Studio Code** y subidos a Github mediante la **consola cuando estoy en Linux, o con SourceTree cuando estoy en Windows.**
 
-Y para **ejecutarlo**:
+## Aprendizaje en Java
 
-```console
-java nombredelprograma
-```
-
+Los ejercicios son de este libro [Aprende Java con ejercicios](https://leanpub.com/aprendejava) :wink:
